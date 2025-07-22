@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kylie's Skin | Premium Skincare Products</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="#"><img src="img/logo.jpg" alt="Kylie's Skin Logo"></a>
+                </div>
+                <div class="nav-menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <button class="cart-icon" id="cart-toggle">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count">0</span>
+                    </button>
+                    <button class="whatsapp-icon">
+                        <a href="https://wa.me/1234567890" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </button>
+                    <button class="mobile-toggle" id="mobile-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Discover Your Skin's Natural Radiance</h1>
+                <p>Premium skincare products designed to nourish, revitalize, and transform your skin</p>
+                <a href="#products" class="btn btn-primary">Shop Now</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Kylie's Skin</h2>
+                    <p>Our journey to perfect skincare</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="img/img5.jpg" alt="About Kylie's Skin">
+                    </div>
+                    <div class="about-text">
+                        <h3>Our Story</h3>
+                        <p>Kylie's Skin was founded with a simple yet powerful mission: to create skincare products that are effective, luxurious, and accessible to everyone. We believe that healthy skin is the foundation of beauty, and our products are designed to help you achieve your best skin ever.</p>
+                        
+                        <h3>Our Commitment</h3>
+                        <p>We are committed to creating products using only the highest quality ingredients. Our formulations are cruelty-free, paraben-free, and designed to address a wide range of skin concerns. From hydration to anti-aging, our products deliver real results you can see and feel.</p>
+                        
+                        <a href="#contact" class="btn btn-primary">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="products">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Products</h2>
+                    <p>Discover our premium skincare collection</p>
+                </div>
+                <div class="product-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="face">Face</button>
+                    <button class="filter-btn" data-filter="body">Body</button>
+                    <button class="filter-btn" data-filter="sets">Sets</button>
+                </div>
+                <div class="product-grid">
+                    <!-- Products will be dynamically generated here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What Our Customers Say</h2>
+                    <p>Real results from real people</p>
+                </div>
+                <div class="testimonial-slider">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-image">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"I've been using Kylie's Skin products for 6 months now, and the difference is incredible. My skin has never looked better!"</p>
+                            <h4>Sarah Johnson</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-image">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"The hydrating serum is a game changer! I've struggled with dry skin for years, and finally found a product that actually works."</p>
+                            <h4>Michael Chen</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-image">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>"I love how these products are effective yet gentle. As someone with sensitive skin, I've finally found products that don't cause irritation."</p>
+                            <h4>Emily Rodriguez</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Get In Touch</h2>
+                    <p>We'd love to hear from you</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Visit Us</h3>
+                                <p>123 Beauty Lane, Skincare City, SC 10001</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h3>Call Us</h3>
+                                <p>+1 (234) 567-8901</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email Us</h3>
+                                <p>hello@kyliesskin.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item whatsapp-contact">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h3>WhatsApp</h3>
+                                <p>Message us directly for quick responses</p>
+                                <a href="https://wa.me/1234567890" class="btn btn-whatsapp" target="_blank">
+                                    <i class="fab fa-whatsapp"></i> Chat Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button id="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <p>Total:</p>
+                <p class="total-price">R0.00</p>
+            </div>
+            <button class="btn btn-primary checkout-btn">Checkout</button>
+            <button class="btn btn-secondary clear-cart-btn">Clear Cart</button>
+            <div class="whatsapp-checkout">
+                <p>Need help with your order?</p>
+                <a href="https://wa.me/1234567890" class="btn btn-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/logo.jpg" alt="Kylie's Skin Logo">
+                    <p>Premium skincare for everyone</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Subscribe to Our Newsletter</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email Address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kylie's Skin. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Shipping Info</a>
+                    <a href="#">Returns Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
