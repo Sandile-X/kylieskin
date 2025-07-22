@@ -402,7 +402,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Function to animate elements when they come into view
     function animateOnScroll() {
-        const elements = document.querySelectorAll('.section-header, .about-content, .product-filter, .testimonial-slider');
+        const elements = document.querySelectorAll('.section-header, .about-content, .product-filter, .testimonial-slider, .feature-card, .gallery-item');
         
         elements.forEach(element => {
             if (isElementInViewport(element) && !element.classList.contains('animate')) {
